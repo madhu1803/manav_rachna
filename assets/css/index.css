@@ -28,7 +28,7 @@ body {
 
 /* tab container  */
 .tabs-holder {
-    background: #2c5ed3;
+    background: white;
     height: 70px !important;
     margin-bottom: 40px;
 }
@@ -37,7 +37,7 @@ body {
 .tabs-holder .nav-tabs .nav-link {
     background-color: transparent;
     border: none;
-    color: white;
+    color: #2c5ed3;
     border-radius: 0;
     padding: 10px 15px;
 }
@@ -57,8 +57,27 @@ body {
 
 .tabs-holder .nav-tabs .nav-link:hover,
 .tabs-holder .nav-tabs .nav-link.active:hover {
-    background: white;
-    color: #2c5ed3 !important;
+    background: #2c5ed3;
+    color: white !important;
+}
+
+.tabs-holder .nav-tabs .nav-link.active {
+    background: #2c5ed3;
+    color: white !important;
+}
+
+.tabs-holder .nav-tabs .nav-link.active::after {
+    z-index: 100000;
+    position: absolute;
+    top: 98.1%;
+    left: 58%;
+    margin-left: -23%;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: solid 15px #2c5ed3;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
 }
 
 .tabs-holder .nav-tabs .nav-link i {
