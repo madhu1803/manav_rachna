@@ -66,7 +66,7 @@ body {
     color: white !important;
 }
 
-.tabs-holder .nav-tabs .nav-link.active::after {
+/* .tabs-holder .nav-tabs .nav-link.active::after {
     z-index: 100000;
     position: absolute;
     top: 98.1%;
@@ -78,7 +78,7 @@ body {
     border-top: solid 15px #2c5ed3;
     border-left: solid 15px transparent;
     border-right: solid 15px transparent;
-}
+} */
 
 .tabs-holder .nav-tabs .nav-link i {
     margin-right: 10px;
