@@ -16,29 +16,29 @@ body {
 
 .main-container .header-container .header-heading h3 {
     text-align: center;
-    background-color: #89BDBB;
+    background-color: #314455;
     padding: 20px;
     font-size: 2.75rem !important;
-    color: #112D31;
+    color: #C96567;
 }
 
 .main-container .header-container .header-text {
-    background: #264E58;
+    /* background: #264E58; */
     padding: 10px;
 }
 
 .main-container .header-container .header-text h6 {
 
-    color: #89BDBB !important;
+    color: #B2384F !important;
     font-size: 1.5rem !important;
     text-align: center;
 }
 
 /* call to action container */
 
+/*  tab container  */
 .main-container .call-to-action-container {
     width: 100%;
-    /* margin: 2rem; */
 }
 
 .nav.nav-pills .nav-item {
@@ -46,16 +46,38 @@ body {
 }
 
 .row .col-md-2.navi {
-    background-color: #A2CECD;
+    background-color: #314455;
     padding: 15px !important;
 }
 
 .nav-item .nav-link {
-    color: #112D31;
+    color: #97A9BD;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #112D31 !important;
+    background-color: #C96567 !important;
+}
+
+
+/* tab content */
+.col-md-10 .tab-content {
+    background: #314455;
+}
+
+.col-md-10 .tab-content .tab-pane .content {
+    padding: 20px;
+}
+
+.col-md-10 .tab-content .tab-pane .content h2 {
+    color: #97A9BD;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.col-md-10 .tab-content .tab-pane .content p {
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
