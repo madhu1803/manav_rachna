@@ -10,7 +10,9 @@ body {
 }
 
 /* header container  */
-.main-container .header-container {}
+.main-container .header-container {
+    margin-bottom: 50px;
+}
 
 .main-container .header-container .header-heading h3 {
     text-align: center;
@@ -36,14 +38,24 @@ body {
 
 .main-container .call-to-action-container {
     width: 100%;
+    /* margin: 2rem; */
 }
 
-.main-container .call-to-action-container .row {
-    width: 100%;
-
+.nav.nav-pills .nav-item {
+    margin-bottom: 20px;
 }
 
-.main-container .call-to-action-container .row .custom-navbar {
-    display: flex;
-    flex-direction: column;
+.row .col-md-2.navi {
+    background-color: #A2CECD;
+    padding: 15px !important;
+}
+
+.nav-item .nav-link {
+    color: #112D31;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #112D31 !important;
 }

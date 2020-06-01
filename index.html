@@ -26,18 +26,71 @@
                 <h6>this is the sub heading</h6>
             </div>
         </div>
+        <!-- call to action container -->
         <div class="call-to-action-container">
+            <hr>
             <div class="row">
-                <div class="col-md-3 custom-navbar">
-                    <a href="#">Download Brochures</a>
-                    <a href="#">Visit out Gallery</a>
-                    <a href="#">Chat now</a>
-                    <a href="#">Meet now</a>
-                    <a href="#">Visit our website</a>
+                <div class="col-md-2 mb-3 navi">
+                    <ul class="nav nav-pills flex-column" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#brochures" role="tab"
+                                aria-selected="true">Download Brochures</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#gallery" role="tab"
+                                aria-selected="false">View our Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#chat" role="tab"
+                                aria-selected="false">Chat now</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#meet" role="tab"
+                                aria-selected="false">Meet now</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#visitwebsite" role="tab"
+                                aria-selected="false">Visit Our Website</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-md-9">
-                    <p>hello</p>
+                <!-- /.col-md-4 -->
+                <div class="col-md-10">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="brochures" role="tabpanel"
+                            aria-labelledby="home-tab">
+                            <h2>Brochures</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eveniet earum. Sed
+                                accusantium eligendi molestiae quo hic velit nobis et, tempora placeat ratione rem
+                                blanditiis voluptates vel ipsam? Facilis, earum!</p>
+                        </div>
+                        <div class="tab-pane fade" id="gallery" role="tabpanel">
+                            <h2>gallery</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eveniet earum. Sed
+                                accusantium eligendi molestiae quo hic velit nobis et, tempora placeat ratione rem
+                                blanditiis voluptates vel ipsam? Facilis, earum!</p>
+                        </div>
+                        <div class="tab-pane fade" id="chat" role="tabpanel">
+                            <h2>Chat</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eveniet earum. Sed
+                                accusantium eligendi molestiae quo hic velit nobis et, tempora placeat ratione rem
+                                blanditiis voluptates vel ipsam? Facilis, earum!</p>
+                        </div>
+                        <div class="tab-pane fade" id="meet" role="tabpanel">
+                            <h2>Meet now</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eveniet earum. Sed
+                                accusantium eligendi molestiae quo hic velit nobis et, tempora placeat ratione rem
+                                blanditiis voluptates vel ipsam? Facilis, earum!</p>
+                        </div>
+                        <div class="tab-pane fade" id="visitwebsite" role="tabpanel">
+                            <h2>visit website</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eveniet earum. Sed
+                                accusantium eligendi molestiae quo hic velit nobis et, tempora placeat ratione rem
+                                blanditiis voluptates vel ipsam? Facilis, earum!</p>
+                        </div>
+                    </div>
                 </div>
+                <!-- /.col-md-8 -->
             </div>
         </div>
     </div>
@@ -47,6 +100,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="assets/js/index.js"></script>
 </body>
 
 </html>
