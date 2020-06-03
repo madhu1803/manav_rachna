@@ -66,18 +66,12 @@ body {
     background: #314455;
 }
 
-.col-md-10 .tab-content .tab-pane .content {
+.col-md-10 .tab-content .tab-pane {
     padding: 20px;
 }
 
-.col-md-10 .tab-content .tab-pane .content h2 {
+.col-md-10 .tab-content .tab-pane h2 {
     color: #97A9BD;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-.col-md-10 .tab-content .tab-pane .content p {
-    color: white;
     margin-top: 3%;
     margin-bottom: 3%;
 }
