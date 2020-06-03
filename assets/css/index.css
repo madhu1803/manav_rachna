@@ -68,23 +68,16 @@ body {
 
 .col-md-10 .tab-content .tab-pane .content {
     padding: 20px;
-    position: relative;
 }
 
-.col-md-10 .tab-content .tab-pane h2 {
+.col-md-10 .tab-content .tab-pane .content h2 {
     color: #97A9BD;
     margin-top: 3%;
     margin-bottom: 3%;
 }
 
-.col-md-10 .tab-content .tab-pane .content h5 {
+.col-md-10 .tab-content .tab-pane .content p {
     color: white;
-    position: absolute;
-    top: 20px;
-    left: 70px;
-}
-
-.col-md-10 .tab-content .tab-pane .content i {
-    color: #C96567;
-    font-size: 60px;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
