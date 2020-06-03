@@ -82,13 +82,22 @@ body {
     width: 100%;
     background-color: #C96567;
     color: white;
+    position: relative;
 }
 
 .col-md-10 .tab-content .tab-pane .content .pdf-download-container p {
     margin-bottom: 0 !important;
+    padding: 10px;
+    margin: 10px;
 }
 
 .col-md-10 .tab-content .tab-pane .content .pdf-download-container p i {
     color: #92A4B8;
     font-size: 30px;
+}
+
+.col-md-10 .tab-content .tab-pane .content .pdf-download-container .download-btn {
+    position: absolute;
+    right: 10px;
+    bottom: 8px;
 }
