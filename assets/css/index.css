@@ -97,8 +97,18 @@ body {
     font-size: 30px;
 }
 
-.col-md-10 .tab-content .tab-pane .content .pdf-download-container .download-btn {
-    position: absolute;
-    right: 10px;
-    bottom: 8px;
+@media (min-width: 577px) {
+    .col-md-10 .tab-content .tab-pane .content .pdf-download-container .download-btn {
+        position: absolute;
+        right: 10px;
+        bottom: 8px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .col-md-10 .tab-content .tab-pane .content .pdf-download-container .download-btn {
+        margin-bottom: 10px;
+    }
 }
