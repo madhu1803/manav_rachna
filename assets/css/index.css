@@ -48,6 +48,7 @@ body {
 .row .col-md-2.navi {
     background-color: #314455;
     padding: 15px !important;
+    height: 100%;
 }
 
 .nav-item .nav-link {
