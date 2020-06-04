@@ -29,7 +29,7 @@ body {
 
 .main-container .header-container .header-text h6 {
   color: white !important;
-  font-size: 2rem !important;
+  font-size: 1.5rem !important;
   text-align: center;
 }
 
@@ -60,12 +60,7 @@ body {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-image: linear-gradient(
-    90deg,
-    #31258d 10%,
-    #133882 10%,
-    #0164e5 80%
-  ) !important;
+  background-image: linear-gradient(90deg, #133882 20%, #0164e5 80%) !important;
 }
 
 /* tab content */
@@ -92,12 +87,7 @@ body {
 /* download brochures tab */
 .col-md-10 .tab-content .tab-pane .content .pdf-download-container {
   width: 100%;
-  background-image: linear-gradient(
-    90deg,
-    #3c185e 10%,
-    #133882 30%,
-    #0164e5 60%
-  );
+  background-image: linear-gradient(90deg, #133882 20%, #0164e5 80%) !important;
   color: white;
   position: relative;
   border-radius: 0.25rem;
@@ -110,7 +100,7 @@ body {
 }
 
 .col-md-10 .tab-content .tab-pane .content .pdf-download-container p i {
-  color: #0264e5;
+  color: #6634b0;
   font-size: 30px;
 }
 
