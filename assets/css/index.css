@@ -3,6 +3,8 @@ body {
   margin: 0;
   padding: 50px;
   font-family: "Montserrat", sans-serif;
+  background-image: linear-gradient(to bottom right, red, yellow);
+  background-repeat: no-repeat;
 }
 
 .main-container {
@@ -12,7 +14,7 @@ body {
 
 .main-container .header-container .header-heading h3 {
   text-align: center;
-  background-color: #314455;
+  background-color: white;
   padding: 20px;
   font-size: 2.75rem !important;
   color: #c96567;
@@ -43,7 +45,7 @@ body {
 }
 
 .row .col-md-2.navi {
-  background-color: #314455;
+  background-color: white;
   padding: 15px !important;
   height: 100%;
 }
@@ -60,7 +62,7 @@ body {
 
 /* tab content */
 .col-md-10 .tab-content {
-  background: #314455;
+  background: white;
 }
 
 .col-md-10 .tab-content .tab-pane {
@@ -76,6 +78,7 @@ body {
 .col-md-10 .tab-content .tab-pane.active {
   overflow: auto;
   max-height: 100vh !important;
+  min-height: 50px;
 }
 
 /* download brochures tab */
