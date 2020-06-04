@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 50px;
   font-family: "Montserrat", sans-serif;
-  background-image: linear-gradient(to bottom right, red, yellow);
+  background-image: url("../images/background2.jpg");
   background-repeat: no-repeat;
 }
 
