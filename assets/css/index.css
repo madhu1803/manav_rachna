@@ -110,8 +110,17 @@ body {
 }
 
 .col-md-10 .tab-content .tab-pane .content .pdf-download-container p i {
-  color: #92a4b8;
+  color: #0264e5;
   font-size: 30px;
+}
+
+.col-md-10
+  .tab-content
+  .tab-pane
+  .content
+  .pdf-download-container
+  .download-btn {
+  color: #0264e5;
 }
 
 @media (min-width: 577px) {
@@ -138,8 +147,8 @@ body {
   }
 }
 
-/* image gallery container  */
-.image-gallery-container img {
+/* image gallery container  tab */
+.col-md-10 .tab-content .tab-pane .content .image-gallery-container img {
   width: 200px; /* You can set the dimensions to whatever you want */
   height: 200px;
   object-fit: cover;
