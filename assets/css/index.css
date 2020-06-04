@@ -20,7 +20,7 @@ body {
   background-color: white;
   padding: 20px;
   font-size: 3rem !important;
-  color: #c96567;
+  color: #3c185e;
 }
 
 .main-container .header-container .header-text {
@@ -28,7 +28,7 @@ body {
 }
 
 .main-container .header-container .header-text h6 {
-  color: #b2384f !important;
+  color: white !important;
   font-size: 2rem !important;
   text-align: center;
 }
