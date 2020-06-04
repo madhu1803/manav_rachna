@@ -10,11 +10,6 @@ body {
   height: 100%;
 }
 
-/* header container  */
-.main-container .header-container {
-  /* margin-bottom: 20px; */
-}
-
 .main-container .header-container .header-heading h3 {
   text-align: center;
   background-color: #314455;
@@ -33,6 +28,9 @@ body {
   text-align: center;
 }
 
+.main-container .row {
+  height: 100%;
+}
 /* call to action container */
 
 /*  tab container  */
@@ -75,8 +73,12 @@ body {
   margin-bottom: 3%;
 }
 
-/* download brochures tab */
+.col-md-10 .tab-content .tab-pane.active {
+  overflow: auto;
+  max-height: 100vh !important;
+}
 
+/* download brochures tab */
 .col-md-10 .tab-content .tab-pane .content .pdf-download-container {
   width: 100%;
   background-color: #c96567;
