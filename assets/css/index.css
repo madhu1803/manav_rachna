@@ -12,10 +12,12 @@ body {
 
 .main-container {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
 
 /*  header container */
+
+/* left alignment */
 @media (min-width: 576px) {
   .main-container .header-container .header-heading {
     margin-left: -17px;
@@ -41,15 +43,15 @@ body {
 }
 
 .main-container .row {
-  height: 100%;
+  /* height: 100%; */
 }
-/* call to action container */
 
-/*  tab container  */
+/* call to action container */
 .main-container .call-to-action-container {
   width: 100%;
 }
 
+/*  tab container  */
 .nav.nav-pills .nav-item {
   margin-bottom: 20px;
 }
@@ -91,8 +93,8 @@ body {
   min-height: 50px;
 }
 
-/* download brochures tab */
-.col-md-10 .tab-content .tab-pane .content .pdf-download-container {
+/* download brochures and meet now tab -tab component*/
+.col-md-10 .tab-content .tab-pane .content .gradient-container {
   width: 100%;
   background-image: linear-gradient(90deg, #133882 20%, #0164e5 80%) !important;
   color: white;
@@ -100,33 +102,22 @@ body {
   border-radius: 0.25rem;
 }
 
-.col-md-10 .tab-content .tab-pane .content .pdf-download-container p {
+.col-md-10 .tab-content .tab-pane .content .gradient-container p {
   margin-bottom: 0 !important;
   padding: 10px;
   margin: 10px;
 }
 
-.col-md-10 .tab-content .tab-pane .content .pdf-download-container p i {
+.col-md-10 .tab-content .tab-pane .content .gradient-container p i {
   color: white;
   font-size: 30px;
 }
-
-.col-md-10
-  .tab-content
-  .tab-pane
-  .content
-  .pdf-download-container
-  .download-btn {
+.col-md-10 .tab-content .tab-pane .content .gradient-container .download-btn {
   color: #0264e5;
 }
 
 @media (min-width: 577px) {
-  .col-md-10
-    .tab-content
-    .tab-pane
-    .content
-    .pdf-download-container
-    .download-btn {
+  .col-md-10 .tab-content .tab-pane .content .gradient-container .download-btn {
     position: absolute;
     right: 10px;
     bottom: 8px;
@@ -134,12 +125,7 @@ body {
 }
 
 @media (max-width: 576px) {
-  .col-md-10
-    .tab-content
-    .tab-pane
-    .content
-    .pdf-download-container
-    .download-btn {
+  .col-md-10 .tab-content .tab-pane .content .gradient-container .download-btn {
     margin-bottom: 10px;
   }
 }
