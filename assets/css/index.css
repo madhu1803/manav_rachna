@@ -56,7 +56,7 @@ body {
   margin-bottom: 20px;
 }
 
-.row .col-md-2.navi {
+.row .col-md-3.navi {
   background-color: white;
   padding: 15px !important;
   height: 100%;
@@ -73,28 +73,34 @@ body {
 }
 
 /* tab content */
-.col-md-10 .tab-content {
+
+@media (min-width: 768px) {
+  .col-md-9 .tab-content {
+    min-height: 390px;
+  }
+}
+.col-md-9 .tab-content {
   background: white;
 }
 
-.col-md-10 .tab-content .tab-pane {
+.col-md-9 .tab-content .tab-pane {
   padding: 20px;
 }
 
-.col-md-10 .tab-content .tab-pane h2 {
+.col-md-9 .tab-content .tab-pane h2 {
   color: #97a9bd;
   margin-top: 3%;
   margin-bottom: 3%;
 }
 
-.col-md-10 .tab-content .tab-pane.active {
+.col-md-9 .tab-content .tab-pane.active {
   overflow: auto;
   max-height: 100vh !important;
   min-height: 50px;
 }
 
 /* download brochures and meet now tab -tab component*/
-.col-md-10 .tab-content .tab-pane .content .gradient-container {
+.col-md-9 .tab-content .tab-pane .content .gradient-container {
   width: 100%;
   background-image: linear-gradient(90deg, #133882 20%, #0164e5 80%) !important;
   color: white;
@@ -102,22 +108,22 @@ body {
   border-radius: 0.25rem;
 }
 
-.col-md-10 .tab-content .tab-pane .content .gradient-container p {
+.col-md-9 .tab-content .tab-pane .content .gradient-container p {
   margin-bottom: 0 !important;
   padding: 10px;
   margin: 10px;
 }
 
-.col-md-10 .tab-content .tab-pane .content .gradient-container p i {
+.col-md-9 .tab-content .tab-pane .content .gradient-container p i {
   color: white;
   font-size: 30px;
 }
-.col-md-10 .tab-content .tab-pane .content .gradient-container .download-btn {
+.col-md-9 .tab-content .tab-pane .content .gradient-container .download-btn {
   color: #0264e5;
 }
 
 @media (min-width: 577px) {
-  .col-md-10 .tab-content .tab-pane .content .gradient-container .download-btn {
+  .col-md-9 .tab-content .tab-pane .content .gradient-container .download-btn {
     position: absolute;
     right: 10px;
     bottom: 8px;
@@ -125,13 +131,13 @@ body {
 }
 
 @media (max-width: 576px) {
-  .col-md-10 .tab-content .tab-pane .content .gradient-container .download-btn {
+  .col-md-9 .tab-content .tab-pane .content .gradient-container .download-btn {
     margin-bottom: 10px;
   }
 }
 
 /* image gallery container  tab */
-.col-md-10 .tab-content .tab-pane .content .image-gallery-container img {
+.col-md-9 .tab-content .tab-pane .content .image-gallery-container img {
   width: 200px; /* You can set the dimensions to whatever you want */
   height: 200px;
   object-fit: cover;
