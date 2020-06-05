@@ -136,6 +136,62 @@ body {
   }
 }
 
+/* manager button */
+.manager-container .manager-btn-container {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.manager-container .manager-btn-container .download-btn {
+  color: #0264e5;
+}
+
+/* manager icon */
+.manager-container .manager-icon-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.manager-container .manager-icon-container i {
+  color: white;
+  font-size: 30px;
+}
+
+/* custom manager tab-content */
+.manager-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  width: 100%;
+  border-radius: 0.25rem;
+  margin-bottom: 15px;
+}
+
+/* manager main content */
+.manager-container .manager-main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.manager-container .manager-main-content h4,
+.manager-container .manager-main-content p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.manager-container .manager-main-content p {
+  font-size: 14px;
+  margin-top: 4px !important;
+}
+
+/* utilities */
+.app_theme_bg-primary {
+  background-image: linear-gradient(90deg, #133882 20%, #0164e5 80%) !important;
+  color: white;
+}
+
 /* image gallery container  tab */
 .col-md-9 .tab-content .tab-pane .content .image-gallery-container img {
   width: 200px; /* You can set the dimensions to whatever you want */
